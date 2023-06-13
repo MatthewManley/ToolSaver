@@ -1,0 +1,10 @@
+{
+  "key.toolsaver.openconfig": "Open Tool Saver Config",
+  "category.toolsaver.main": "Tool Saver",
+  "config.toolsaver.pickaxes": "Pickaxes",
+  "config.toolsaver.axes": "Axes",
+  "config.toolsaver.shovels": "Shovels",
+  "config.toolsaver.hoes": "Hoes",
+  "config.toolsaver.other": "Other",
+  "config.toolsaver.swords": "Swords"
+}

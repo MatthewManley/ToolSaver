@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "toolsaver",
+  "version": "${version}",
+  "name": "Tool Saver",
+  "description": "Prevent tools from breaking, configurable per tool!",
+  "authors": ["Matthew Manley"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "xyz.chinesemenu.toolsaver.client.ToolSaverClient"
+    ],
+    "modmenu": [ "xyz.chinesemenu.toolsaver.client.ModMenuImpl" ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": ">=1.20.1",
+    "cloth-config": ">=8.2"
+  },
+  "recommends": {
+    "modmenu": ">=7.0.1"
+  }
+}
